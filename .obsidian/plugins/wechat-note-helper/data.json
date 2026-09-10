@@ -38,7 +38,7 @@
   "sectionSeparatorEnd": "%%{{{dateSaved}}}_end%%",
   "wechatMessageTemplate": "---\n#### {{{heading}}}\n## 📅 {{{dateSaved}}}\n{{{content}}}",
   "chatRecordTimestampTemplate": "<small style=\"color: #999;\">{{{timestamp}}}</small>",
-  "imageMode": "local",
+  "imageMode": "disabled",
   "enablePngToJpeg": false,
   "jpegQuality": 85,
   "imageDownloadRetries": 5,
