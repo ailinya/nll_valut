@@ -57,8 +57,13 @@
   "deviceSyncCursors": {},
   "initialSyncCompleted": false,
   "firstSyncAutoOpened": false,
-  "deviceAutoSync": {},
-  "deviceAutoSyncMigrated": false,
+  "deviceAutoSync": {
+    "desktop-mtuwjtj6-ant3": {
+      "frequency": 0,
+      "syncOnStart": false
+    }
+  },
+  "deviceAutoSyncMigrated": true,
   "escapeHashtags": false,
   "language": "zh",
   "enableDebugLog": false,
