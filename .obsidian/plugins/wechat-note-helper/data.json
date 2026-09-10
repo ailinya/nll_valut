@@ -3,7 +3,7 @@
   "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
   "apiKey": "o56E761gbFd9-yMC36eAtA-UXkVc",
   "filter": "ALL",
-  "syncAt": "2026-09-10T19:42:56.888+08:00",
+  "syncAt": "2026-09-10T19:44:36.823+08:00",
   "customQuery": "in:all",
   "customQueryNormalized": true,
   "template": "{{{content}}}",
@@ -22,7 +22,7 @@
   "intervalId": 0,
   "frontMatterVariables": [],
   "frontMatterTemplate": "author: {{{author}}}\nsource: {{{siteName}}}\nurl: {{{originalUrl}}}\nsaved: {{{dateSaved}}}\ntags: [笔记同步助手{{#labels}}, {{{name}}}{{/labels}}]",
-  "syncOnStart": false,
+  "syncOnStart": true,
   "enableHighlightColorRender": false,
   "highlightManagerId": "omni",
   "highlightColorMapping": {
@@ -38,7 +38,7 @@
   "sectionSeparatorEnd": "%%{{{dateSaved}}}_end%%",
   "wechatMessageTemplate": "---\n#### {{{heading}}}\n## 📅 {{{dateSaved}}}\n{{{content}}}",
   "chatRecordTimestampTemplate": "<small style=\"color: #999;\">{{{timestamp}}}</small>",
-  "imageMode": "disabled",
+  "imageMode": "local",
   "enablePngToJpeg": false,
   "jpegQuality": 85,
   "imageDownloadRetries": 5,
@@ -55,14 +55,14 @@
   "diaryLinkTemplate": "- {{{link}}}",
   "diaryLinkMaxLength": 0,
   "deviceSyncCursors": {
-    "desktop-mtuwjtj6-ant3": "2026-09-10T19:42:56.888+08:00"
+    "desktop-mtuwjtj6-ant3": "2026-09-10T19:44:36.823+08:00"
   },
   "initialSyncCompleted": true,
   "firstSyncAutoOpened": true,
   "deviceAutoSync": {
     "desktop-mtuwjtj6-ant3": {
       "frequency": 0,
-      "syncOnStart": false
+      "syncOnStart": true
     }
   },
   "deviceAutoSyncMigrated": true,
