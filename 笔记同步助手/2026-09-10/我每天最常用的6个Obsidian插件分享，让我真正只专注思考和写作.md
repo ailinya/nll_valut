@@ -14,7 +14,7 @@ id: a23567e7-6493-4d22-8e93-1058ea4a4057
 
 发布时间：2026-08-25 18:50
 
-![](https://relay-1.bijitongbu.site/p/b6f74c0b9505a502c97d0c3405d51313.png)
+![[笔记同步助手/images/2c75ece6f1ce52f3ae491885449ee811_MD5.gif]]
 
 为了让AI可以更好的赋能内容创作，我重新打造了一个Obsidian库：AI Company OS。然后在不断进行内容创作和实验的这2个月中，我没有再过度执着插件，但是也没有丢弃所有插件不用。
 
@@ -34,11 +34,11 @@ id: a23567e7-6493-4d22-8e93-1058ea4a4057
 
 通过插件可以直接在Obsidian写好公众号内容，一键发布。在平台生成草稿（图片也正常），每天只需要审核一下再发布即可，基本达到了90%的自动化。
 
-![](https://relay-1.bijitongbu.site/p/0d852aa19c3a51cc7245f934db9c1f45.png)
+![[笔记同步助手/images/9c130aa4fd5a041fe2369356c623de5b_MD5.png]]
 
 除了以上平台，如果还希望在Obsidian上聚焦创作，在小红书上发布内容的话，使用Note to Red插件，可以直接生成图片，对于我不需要太华丽的排版和审美，只需要图片，聚焦内容，因此，选择了这个插件，每当创作好，包含图文都正常，生成如下格式，后续发布只需要导出上传即可发布。
 
-![](https://relay-1.bijitongbu.site/p/e219f41fe8df23eb7f39cbb5e203200c.png)
+![[笔记同步助手/images/54fa128ab33a2ee8c435198faede0e06_MD5.png]]
 
 以上两个插件并不是非常完美的插件，但是功能够用，每天也需要高频使用，让我完全聚焦在写作，不再用为输出消耗纠结。
 
@@ -58,7 +58,7 @@ id: a23567e7-6493-4d22-8e93-1058ea4a4057
 
 渲染后：
 
-![](https://relay-1.bijitongbu.site/p/5ecaf77cb1d406968cad492695761b65.png)
+![[笔记同步助手/images/a72e8a0aeda8139828ff17efd34c8209_MD5.png]]
 
 ## 思维创作管理（Canvas+Advanced Canvas）
 
@@ -71,7 +71,7 @@ Canvas可以：
 
 在以上基础上，如果想更美观，更多思维聚合管理功能，可以补充Advanced Canvas插件，对Canvas插件进行提升，实现更高阶的思维创作管理。
 
-![](https://relay-1.bijitongbu.site/p/bba5dd65298d4b06d98c62da6b0ecdc6.png)
+![[笔记同步助手/images/ff7319483f1cb1ed35487ff8114dcb81_MD5.png]]
 
 ## 总结
 

@@ -26,7 +26,7 @@ id: af7af7f3-4871-4c2c-ac42-1b65392ea4f7
 
 > 项目技术栈
 
-![|60](https://relay-1.bijitongbu.site/p/50e80d2f4bdeb7ce413de8b2c5e0bf02.png)
+![[笔记同步助手/images/5b94f64faaea76e85e24da8b778513ca_MD5.png||60]]
 
 前后端分离
 
@@ -46,7 +46,7 @@ id: af7af7f3-4871-4c2c-ac42-1b65392ea4f7
 
 > 项目功能描述
 
-![|60](https://relay-1.bijitongbu.site/p/50e80d2f4bdeb7ce413de8b2c5e0bf02.png)
+![[笔记同步助手/images/5b94f64faaea76e85e24da8b778513ca_MD5.png||60]]
 
 ## 1\. 管理员
 
@@ -126,7 +126,7 @@ AI 配置
 
 > 项目创新点
 
-![|60](https://relay-1.bijitongbu.site/p/50e80d2f4bdeb7ce413de8b2c5e0bf02.png)
+![[笔记同步助手/images/5b94f64faaea76e85e24da8b778513ca_MD5.png||60]]
 
   
 
@@ -155,29 +155,29 @@ AI 配置
 
 > 关键页面截图
 
-![|60](https://relay-1.bijitongbu.site/p/50e80d2f4bdeb7ce413de8b2c5e0bf02.png)
+![[笔记同步助手/images/5b94f64faaea76e85e24da8b778513ca_MD5.png||60]]
 
-![](https://relay-1.bijitongbu.site/p/2385b040be257b056cfd9fc65baf8232.png)
+![[笔记同步助手/images/c34852bf4417b98b00caf5c33cbad95c_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/0b084313439cb04ca304b0e004332e63.png)
+![[笔记同步助手/images/81d9163b89e67fa3972e2012a3e9313d_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/906af4b24f56d205e6fd51aabed29feb.png)
+![[笔记同步助手/images/a4b2c97a5399a2c874368a5daa0ce55e_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/fe0d4a8c31f50031d94f7ab0be4d76b0.png)
+![[笔记同步助手/images/39b65477170e0d34240832298a8edfec_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/dedd260068f8a4e735e685daf8a78620.png)
+![[笔记同步助手/images/84bfb4592674ae5caaa660de8e3f92d0_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/a8258bc3ef1f753b6c5e9e11d7494f8d.png)
+![[笔记同步助手/images/d1617e281f987d03c3b89c299c99f985_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/613f75097dec3acda9ce741f31f601e5.png)
+![[笔记同步助手/images/38247dc33294cc534ec3ef2dbe2fb1a4_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/f5551f46139d754df3b9837a8b1bccea.png)
+![[笔记同步助手/images/1f13c459a91557c0ccd9015a02b2a3a5_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/d43b9342a1a4a630991510848c910942.png)
+![[笔记同步助手/images/e3c56ab6e426681c17c8eac36d2ab4a7_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/15fc98b7780bda076ffdff48b97d4fa3.png)
+![[笔记同步助手/images/04f16a6045fbc2f51406063e345c835d_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/cff5e08d212a31bb270d4a0ba41ee918.png)
+![[笔记同步助手/images/8c46a1539e0881bf3f10dd8d9e2af9d4_MD5.png]]
 
 左下角阅读原文点击进入可以直接看功能详细的介绍视频以及相关原理的讲解。
 
