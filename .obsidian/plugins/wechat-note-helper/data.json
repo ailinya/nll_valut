@@ -18,8 +18,8 @@
   "mergeMode": "messages",
   "messageSortOrder": "desc",
   "messageFolder": "",
-  "frequency": 0,
-  "intervalId": 0,
+  "frequency": 60,
+  "intervalId": 4259,
   "frontMatterVariables": [],
   "frontMatterTemplate": "author: {{{author}}}\nsource: {{{siteName}}}\nurl: {{{originalUrl}}}\nsaved: {{{dateSaved}}}\ntags: [笔记同步助手{{#labels}}, {{{name}}}{{/labels}}]",
   "syncOnStart": true,
@@ -61,7 +61,7 @@
   "firstSyncAutoOpened": true,
   "deviceAutoSync": {
     "desktop-mtuwjtj6-ant3": {
-      "frequency": 0,
+      "frequency": 60,
       "syncOnStart": true
     }
   },
