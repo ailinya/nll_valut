@@ -20,7 +20,7 @@ id: be4b9bdf-1871-4e30-9f31-5d43ff469b0a
 
 首先我们要理解，在 AI 时代，为什么构建个人知识库会变得越来越重要？
 
-![](https://relay-1.bijitongbu.site/p/556ee90979c96c4604ea75bb64bf1b8b.png)
+![[笔记同步助手/images/7393d906a7a9845289c6a9fbe852b6e5_MD5.jpg]]
 
 大模型本身是没有长期记忆的。一个会话聊完以后，再新开一个会话，AI 就不记得我们之前聊过什么，也不了解我们的做事风格、思考模式、决策逻辑，以及当前项目的上下文。
 
@@ -34,7 +34,7 @@ id: be4b9bdf-1871-4e30-9f31-5d43ff469b0a
 
 当前主流的个人知识库管理方案有很多，比如腾讯IMA、语雀、印象笔记、Get笔记、NoteBookLM、Notion、Obsidian等。
 
-![](https://relay-1.bijitongbu.site/p/8c5a7a855e464884fbfda6745c9ea616.png)
+![[笔记同步助手/images/85a36ecffa7b27f8656408c002c0118a_MD5.jpg]]
 
 这些笔记软件中，目前最火的就是Obsidian。它火的逻辑是什么呢？
 
@@ -71,7 +71,7 @@ Claudian插件安装，步骤如下：
 4.  然后在Claudian中激活对应的Agent工具
     
 
-![](https://relay-1.bijitongbu.site/p/4141950d6442721f50870f8608a3f29c.png)
+![[笔记同步助手/images/482dd78c5773296493e19c27c56fabb0_MD5.jpg]]
 
 这种方式的优势就是不用切换软件，操作最方便。但是需要本地电脑上安装Claude code 或者Codex的CLI命令行工具。
 
@@ -79,7 +79,7 @@ Claudian插件安装，步骤如下：
 
 首先使用Obsidian创建一个本地仓库
 
-![](https://relay-1.bijitongbu.site/p/32252a2b4357d2244ff43f1323a2e5c0.png)
+![[笔记同步助手/images/9c529b9d1a44a9d798ef2de6d348a8f3_MD5.jpg]]
 
 然后打开WorkBuddy，新建一个会话，工作空间选择刚刚在Obsidian中创建的项目文件夹。
 
@@ -99,7 +99,7 @@ LLM wiki 是karpathy今年4月在Github上公开的一份个人知识库构想�
 
 他指出了传统RAG检索的弊端，每次问答都是从海量的知识碎片里面去寻找相似的文档，然后在临时组装生成答案，知识和经验并没有被持续沉淀下来。
 
-![](https://relay-1.bijitongbu.site/p/c423028e6a6857905735b621e989b5e0.png)
+![[笔记同步助手/images/aa8a0f30ea950d54739eb605ee00e7c9_MD5.jpg]]
 
 而LLM wiki整体分为三层架构：
 
@@ -122,7 +122,7 @@ LLM wiki 是karpathy今年4月在Github上公开的一份个人知识库构想�
 
 根据前面的LLM Wiki的原则，我们在Obsidian中把目录文件层级设置为如下结构：
 
-![](https://relay-1.bijitongbu.site/p/0b23118a0fc8d2a679450f0ee95f91e0.png)
+![[笔记同步助手/images/03c1335abc714e92fc03022a15d30c96_MD5.jpg]]
 
 每个目录文件的职责定义：
 
@@ -157,7 +157,7 @@ Schema层相当于就是定义AGENTS.md文件，指导Agent如何工作。
 
 整体流程中最为关键是，数据怎么采集、知识怎么加工、如何查询、怎么保持加工的质量能够稳定持续、如何把优质问答写入wiki。
 
-![](https://relay-1.bijitongbu.site/p/c8ed771a05761c39b13de7b3f83ff5e2.png)
+![[笔记同步助手/images/63e20211d78ea07346d6f71217062540_MD5.jpg]]
 
 下面依次来看这几个核心工作流程：
 
@@ -252,7 +252,7 @@ wiki页面的生成大部分都是依靠LLM，而人工只负责审核，随着�
 
 ## 这套方案的边界
 
-![](https://relay-1.bijitongbu.site/p/ef45ab2bc9fdc532c2bc965955f60c39.png)
+![[笔记同步助手/images/e663071039d8ca41074075beb79cbf5f_MD5.jpg]]
 
 LLM wiki 这套方案目前更适合个人知识管理，放到企业场景中并不一定合适。
 
