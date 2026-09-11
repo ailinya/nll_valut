@@ -169,3 +169,62 @@ rg -n "^source_type:$|^## Raw$" templates/Source.md
 ```
 
 Expected: `folder` 为 `templates`，模板字段和章节均存在。
+
+### Task 5: 全量验证、记录、提交和 PR
+
+**Files:** Create/Update `process.txt`; inspect all declared files
+
+- [ ] **Step 1: 验证结构和非空文件**
+
+```powershell
+Get-ChildItem -LiteralPath inbox,raw,wiki,templates -Recurse -Force | Select-Object FullName
+Get-ChildItem -LiteralPath AGENTS.md,inbox/README.md,wiki/index.md,wiki/log.md,wiki/sources/README.md,templates/Wiki.md,templates/Source.md | Where-Object { $_.Length -eq 0 }
+```
+
+Expected: 所有声明路径存在；第二条命令无输出。
+
+- [ ] **Step 2: 检查变更范围**
+
+```powershell
+git -c safe.directory=D:/nll_vault/nll status --short
+```
+
+Expected: 只出现计划内新增文件和执行前已有的两个 `.obsidian` 未跟踪文件。
+
+- [ ] **Step 3: 更新 `process.txt`**
+
+追加 Asia/Shanghai 当前时间、类型 `feat`、改动文件，以及“创建 Raw -> Source -> Wiki 骨架、导航、模板与模板目录配置”的说明。
+
+- [ ] **Step 4: 精确暂存并复核**
+
+```powershell
+git -c safe.directory=D:/nll_vault/nll add AGENTS.md plan.md process.txt inbox raw wiki templates .obsidian/templates.json
+git -c safe.directory=D:/nll_vault/nll diff --cached --name-status
+```
+
+Expected: 暂存区不包含 `.obsidian/workspace.json` 和 `.obsidian/plugins/git-vault-sync/data.json`。
+
+- [ ] **Step 5: 提交**
+
+```powershell
+git -c safe.directory=D:/nll_vault/nll commit -m "feat: initialize personal knowledge base"
+```
+
+- [ ] **Step 6: 推送功能分支并创建 PR**
+
+```powershell
+git -c safe.directory=D:/nll_vault/nll push -u origin feat/initialize-knowledge-base
+gh pr create --base main --head feat/initialize-knowledge-base --title "feat: initialize personal knowledge base" --body "Initialize the Raw -> Source -> Wiki Obsidian knowledge-base structure, navigation, templates, and source tracking rules."
+```
+
+Expected: 创建 PR，不直接推送 `main`。若网络、权限或 `gh` 登录失败，保留本地提交并报告具体错误。
+
+## Completion Criteria
+
+- Obsidian 中可看到 Inbox、Raw、Wiki、Sources 和 Templates。
+- `wiki/index.md` 的主题入口全部可打开，初始化不产生 Broken link。
+- Raw 只含 `.gitkeep`，没有示例或改写内容。
+- Templates 核心插件使用 `templates/`。
+- `AGENTS.md` 完整保存知识库治理规则。
+- 既有 Obsidian 工作区和插件状态文件未进入提交。
+- 所有变更通过功能分支和 PR 提交，不直接推送主分支。
